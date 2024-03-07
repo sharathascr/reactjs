@@ -1,0 +1,49 @@
+.form{
+    width: 25%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.registrationPage{
+    background-image: linear-gradient(#E1A8F9,#C9FEFE);
+    margin-top: 40px;
+    padding: 30px;
+}
+.registerBtn{
+    width:35%;
+    margin: auto;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+input{
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding: 4px;
+}
+select{
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+h2{
+    opacity: 0.8;
+}
+.genderDiv{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+p{
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    color: red;
+    font-weight: 500;
+
+}
